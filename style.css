@@ -1,0 +1,54 @@
+                 #ana {
+                     background-color: rgb(183, 209, 183);
+                     width: 30%;
+                     margin: 10px auto;
+                     height: 400px;
+                 }
+                 
+                 input {
+                     display: inline-flex;
+                     margin: 1%;
+                     padding: 2%;
+                     border-radius: 4%;
+                     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset, -1px -1px 0 0 #F5F5F6, 1px 1px 0 0 #F5F5F6, 1px 0 0 0 #F5F5F6, 0 1px 0 0 #F5F5F6, 1px -1px 0 0 #F5F5F6, -1px 1px 0 0 #F5F5F6;
+                 }
+                 
+                 #ana div {
+                     height: 16.666%
+                 }
+                 
+                 div#but {
+                     width: 30%;
+                     float: right;
+                 }
+                 
+                 input#nom {
+                     margin-left: 21px;
+                 }
+                 
+                 input#email {
+                     margin-left: 17px;
+                 }
+                 
+                 label {
+                     margin-left: 10%;
+                 }
+                 
+                 #but {
+                     margin: 2% aut;
+                     padding: 1%;
+                 }
+                 
+               /*  #ok {
+                    display: inline-flex;
+                 }*/
+                 
+                 @media print {
+                     forme,
+                     #ana {
+                         display: none;
+                     }
+                     * {
+                         font-size: 20px;
+                     }
+                 }
